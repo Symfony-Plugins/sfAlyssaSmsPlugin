@@ -1,0 +1,23 @@
+# sfAlyssaSmsPlugin plugin #
+
+The 'sfAlyssaSmsPlugin' plugin allows to send sms through different service providers. The current provider implemented is a web service from [TextMagic](http://www.textmagic.com).
+
+Planned feature: support smstools to connect with modems and 3g devices.
+
+
+## Requirements: ##
+
+ - php5-curl: used for web service of Textmagic
+
+
+
+    
+## Todo ##
+
+* Implement an sms daemon provider for work with smstools
+
+   
+## Changelog ##
+
+### 2010-04-06 | 1.0.0 ###
+* Initial import

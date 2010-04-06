@@ -1,0 +1,16 @@
+all:
+  sms:
+    sender   : alyssa                     # el nombre que aparece en el remitente del sms
+    subject  : mensaje de prueba.         # mensaje a enviar de prueba
+    number   : 3752235125                 # numero a quien va dirigido
+    default_provider : null               # puede ser null, daemon o web_service
+      
+    # servicio smstools con un modem
+    daemon_user      : smsd               # el usuario del paquete smstools
+    daemon_dir_salida: /tmp               # el directorio donde acepta smstools los archivos a enviar como sms
+
+    # servicio textmagic.com
+    web_service_username: sergiovier      # el usuario para la cuenta
+    web_service_api_key : pzmsplK43MyAB1B # la key de la cuenta para la API
+    web_service_unicode : false           # si queremos mandar sms en unicode
+    
